@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adbf4d43284aec54181a2511d8f4913a, type: 3}
+  m_Name: Introcutscene_conversation
+  m_EditorClassIdentifier: 
+  charactersList:
+  - '<color=#B82F2C>Bob</color>: '
+  - '<color=#397551>Dobby</color>: '
+  dialogueList:
+  - charactersListIndex: 1
+    dialogue: I swear, this dungeon's endless.
+  - charactersListIndex: 0
+    dialogue: Nah, just bad map reading.
+  - charactersListIndex: 1
+    dialogue: "I\u2019m <color=#B82F2C>sure</color> we passed that trap door."
+  - charactersListIndex: 0
+    dialogue: "Maybe it\u2019s hiding, like me after a fight."
+  - charactersListIndex: 1
+    dialogue: So, you <color=#B82F2C>are</color>  afraid of goblins?
+  - charactersListIndex: 0
+    dialogue: Only when they borrow my sword.
+  - charactersListIndex: 1
+    dialogue: "You\u2019re impossible."
+  - charactersListIndex: 0
+    dialogue: 'I prefer <color=#397551>impractical.</color> '
+  - charactersListIndex: 1
+    dialogue: Let's go!
